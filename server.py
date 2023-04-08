@@ -5,8 +5,8 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind(('localhost', 5354))
 
 # Define a dictionary of hostname-IP address mappings
-hosts = {'ayush4802.com': '192.168.1.1', 'www.ayush4802.com': '192.168.1.1', 'mail.ayush4802.com': '192.168.1.2',
-         'ftp.ayush4802.com': '192.168.1.3'}
+hosts = {'bhumika4757.com': '192.168.1.1', 'www.bhumika457.com': '192.168.1.1', 'mail.bhumika4757.com': '192.168.1.2',
+         'ftp.bhumika4757.com': '192.168.1.3'}
 
 print('DNS server listening on port 5354..')
 
