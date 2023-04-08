@@ -4,7 +4,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Define the hostname to query
-hostname = 'www.ayush4802.com'
+hostname = 'www.bumika4757.com'
 
 # Construct a query message
 message = bytearray(b'\x00\x01\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00') + bytearray(hostname.encode('utf-8')) + bytearray(b'\x00\x00\x01\x00\x01')
